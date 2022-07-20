@@ -5,6 +5,48 @@ categories: [Development, T-SQL]
 tags: [development, t-sql, sqlserver, database, column]
 ---
 
+### List installed instances with PowerShell
+
+On the server, querying the registry with [`Get-ItemProperty`](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-itemproperty?view=powershell-7.2):
+
+```powershell
+$instances = (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Microsoft SQL Server').InstalledInstances
+Write-Host $instances 
+```
+
+Output:
+
+```text
+MYINSTANCE1
+MYINSTANCE2
+```
+
+### List all databases
+
+Perform a query on the `master.dbo.sysdatabases` table:
+
+```sql
+SELECT [name] FROM master.dbo.sysdatabases
+```
+
+Non-user databases can be excluded with the following `WHERE` clause:
+
+```sql
+SELECT [name] FROM master.dbo.sysdatabases WHERE [name] NOT IN ('master', 'tempdb', 'model', 'msdb')
+```
+
+> Reporting services databases can also be excluded.
+{: .prompt-tip }
+
+This exclusion can also be done on the `dbid` field:
+
+```sql
+SELECT [name] FROM master.dbo.sysdatabases WHERE [dbid] > 4
+```
+
+> `dbid` between 1 and 4 are system databases, `dbid` between 5 and 6 are usually report server databases.
+{: .prompt-info }
+
 ### List tables from the current database
 
 Note that there is a lot of ways to achieve this.
