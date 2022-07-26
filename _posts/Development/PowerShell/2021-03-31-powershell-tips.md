@@ -186,7 +186,7 @@ SHA256          BFF9360D9A14AAE7B8CC4D829C6570B3FA72925E0ECF037582DEAEAEAA8E268C
 To get a `MD5` hash and display only the hash:
 
 ```powershell
-Get-FileHash C:\myFile.txt | Select-Object Hash
+Get-FileHash C:\myFile.txt -Algorithm MD5 | Select-Object Hash
 ```
 
 Output is:
@@ -200,11 +200,27 @@ BFF9360D9A14AAE7B8CC4D829C6570B3FA72925E0ECF037582DEAEAEAA8E268C
 To get a `MD5` hash and get only the hash:
 
 ```powershell
-Get-FileHash C:\myFile.txt | Select-Object -ExpandProperty Hash
+Get-FileHash C:\myFile.txt -Algorithm MD5 | Select-Object -ExpandProperty Hash
 ```
 
 Output is:
 
 ```text
 BFF9360D9A14AAE7B8CC4D829C6570B3FA72925E0ECF037582DEAEAEAA8E268C
+```
+
+### Ternary operation
+
+Like the traditional `condition ? true : false`:
+
+```powershell
+$foo = "Fake foo"
+$bar = if ($foo -eq "Foo") { "It's foo!" } else { "It's not foo..." }
+Write-Host $bar
+```
+
+Output:
+
+````text
+It's not foo...
 ```

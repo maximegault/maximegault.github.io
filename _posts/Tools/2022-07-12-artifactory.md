@@ -52,16 +52,16 @@ curl -H "X-JFrog-Art-Api: <ARTIFACTORY_TOKEN>" -X PUT "https://artifactory.myDom
 With the:
 
 * `-u` for the user
-* `-O` argument
+* `-o` argument for the output
 
 ```bash
-curl -u <USER>:<PASSWORD> -O "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt"
+curl -u <USER>:<PASSWORD> "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt" -o "myLocalPath/myFile.txt
 ```
 
 Or:
 
 ```bash
-curl -u <USER>:<ARTIFACTORY_TOKEN> -O "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt"
+curl -u <USER>:<ARTIFACTORY_TOKEN> "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt" -o "myLocalPath/myFile.txt
 ```
 
 ### With header authentication
@@ -71,13 +71,13 @@ With the `-H` for:
 * Either the bearer `Authorization` header:
 
 ```bash
-curl -H "Authorization: Bearer <BEARER_TOKEN>" -O "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt"
+curl -H "Authorization: Bearer <BEARER_TOKEN>" "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt" -o "myLocalPath/myFile.txt
 ```
 
 * Or the JFrog Artifactory `X-JFrog-Art-Api` header:
 
 ```bash
-curl -H "X-JFrog-Art-Api: <ARTIFACTORY_TOKEN>" -O "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt"
+curl -H "X-JFrog-Art-Api: <ARTIFACTORY_TOKEN>" "https://artifactory.myDomain.com/artifactory/myFolder/myFile.txt" -o "myLocalPath/myFile.txt
 ```
 
 ### Add a checksum

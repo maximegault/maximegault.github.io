@@ -1,9 +1,20 @@
 ---
 title: Generic informations
 date: 2020-10-29 08:30:00 HH:MM:SS +0100
-categories: [Development, T-SQL]
-tags: [development, t-sql, sqlserver, database, column]
+categories: [Development, T-SQL, PowerShell]
+tags: [development, t-sql, sqlserver, database, column, powershell]
 ---
+
+### Check if a connection is OK or not
+
+```powershell
+$connection = New-Object System.Data.SqlClient.SqlConnection
+$connection.ConnectionString = 'data source=mySource;initial catalog=myDatabse;persist security info=True;user id=myUser;password=myPassword;MultipleActiveResultSets=True;App=EntityFramework'
+$connection.Open()
+$connection.Close()
+```
+
+No output if the connection is OK, otherwise there will be an error on stderr.
 
 ### List installed instances with PowerShell
 
@@ -53,12 +64,6 @@ Note that there is a lot of ways to achieve this.
 
 ```sql
 SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'
-```
-
-### Create user
-
-```sql
-CREATE USER [myUser] FOR LOGIN [myLogin]
 ```
 
 ### Create operator
