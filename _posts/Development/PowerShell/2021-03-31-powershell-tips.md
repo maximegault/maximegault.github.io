@@ -221,6 +221,6 @@ Write-Host $bar
 
 Output:
 
-````text
+```text
 It's not foo...
 ```
