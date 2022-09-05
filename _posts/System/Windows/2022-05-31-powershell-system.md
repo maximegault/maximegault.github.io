@@ -1,11 +1,27 @@
 ---
-title: Powershell system
+title: PowerShell system
 date: 2022-05-31 15:00:00 HH:MM:SS +0200
 categories: [System, PowerShell]
 tags: [system, powershell, tips]
 ---
 
 ## System commands
+
+### PowerShell version
+
+With `$PSVersionTable.PSVersion` (see [$PSVersionTable](https://docs.microsoft.com/fr-fr/powershell/module/microsoft.powershell.core/about/about_powershell_editions?view=powershell-7.2#edition-in-psversiontable)):
+
+```powershell
+$PSVersionTable.PSVersion
+```
+
+Output:
+
+```text
+Major  Minor  Build  Revision
+-----  -----  -----  --------
+5      1      19041  1682
+```
 
 ### Users and groups
 

@@ -1,5 +1,5 @@
 ---
-title: Powershell tips
+title: PowerShell tips
 date: 2020-10-29 11:30:00 HH:MM:SS +0100
 categories: [Development, PowerShell]
 tags: [development, powershell, tips]
