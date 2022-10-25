@@ -1,0 +1,32 @@
+---
+title: Acronyms
+date: 2022-06-23 09:00:00 HH:MM:SS +0200
+categories: [Acronyms, Misc]
+tags: [acronyms, misc]
+---
+
+### Acronyms
+
+* [AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services)([fr](https://fr.wikipedia.org/wiki/Amazon_Web_Services)): **A**mazon **W**eb **S**ervices. It is a subsidiary of Amazon that provides on-demand cloud computing platforms and APIs.
+* [CAB](https://en.wikipedia.org/wiki/Change-advisory_board): **C**hange **A**dvisory **B**oard. It delivers support to a change-management team by advising on requested changes, assisting in the assessment and prioritization of changes. This body is generally made up of IT and Business representatives that include: a change manager, user managers and groups, technical experts and, possible third parties and customers.
+* [CTO](https://en.wikipedia.org/wiki/Chief_technology_officer): **C**hief **T**echnology **O**fficer. His occupation is focused on the scientific and technological issues within an organization. He will make decisions for the overarching technology infrastructure that closely align with the organization's goals.
+* [BATX](https://fr.wikipedia.org/wiki/BATX): **B**aidu **A**libaba **T**encent **X**iaomi (chinese GAFAM).
+* [EC2](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)([fr](https://fr.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)): **A**mazon **E**lastic **C**loud **C**ompute **M**icrosoft. It's a service (part of AWS) that allows users to rent virtual computers on which to run their own computer applications.
+* [GAFAM](https://fr.wikipedia.org/wiki/GAFAM): **G**oogle **A**pple **F**acebook **A**mazon **M**icrosoft.
+* [IAM](https://en.wikipedia.org/wiki/Identity_management): **I**dentity and **A**ccess **M**anagement. The discipline that enables the right individuals to access the right resources at the right times for the right reasons. Ie. with `okta`.
+* [IGA](https://doubleoctopus.com/security-wiki/identity-and-access-management/identity-governance/): **I**dentity **G**overnance and **A**dministration. It automates the creation, management, and certification of user accounts, roles, and access rights for individual users in an organization. It's the policy-based centralized orchestration of user identity management and access control, and it helps support enterprise IT security and regulatory compliance. Ie. with `SailPoint`.
+* [ITIL](https://en.wikipedia.org/wiki/ITIL): **I**nformation **T**echnology **I**nfrastructure **L**ibrary is a set of detailed practices for IT activities.
+* [KPI](https://en.wikipedia.org/wiki/Performance_indicator): **K**ey **P**erformance **I**ndicator. It evaluates the success of an organization or of a particular activity (such as projects, programs, products and other initiatives) in which it engages. KPIs provides a focus for strategic and operational improvement, create an analytical basis for decision making and help focus attention on what matters most.
+* [LBO](https://en.wikipedia.org/wiki/Leveraged_buyout)([fr](https://fr.wikipedia.org/wiki/Achat_%C3%A0_effet_de_levier)): **L**everage **B**uy-**O**ut. It is one company's acquisition of another company using a significant amount of borrowed money (leverage) to meet the cost of acquisition.
+* [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product): **M**inimum **V**iable **P**roduct. A minimum viable product has just enough core features to effectively deploy the product, and no more.
+* [MTU](https://en.wikipedia.org/wiki/Maximum_transmission_unit)([fr](https://fr.wikipedia.org/wiki/Maximum_transmission_unit)): **M**aximum **T**ransmission **U**nit. Largest size of a network packet (protocol data unit - PDU) that can be communicated in a single network layer transaction (without being fragmented).
+* [PAM](https://www.beyondtrust.com/resources/glossary/privileged-access-management-pam): **P**rivileged **A**ccess **M**anagement. Management of elevated access.
+* [RFP](https://en.wikipedia.org/wiki/Request_for_proposal): **R**equest **F**or **P**roposal. A document that solicits proposal, often made through a bidding process, by an agency or company interested in procurement of a commodity, service, or valuable asset, to potential suppliers to submit business proposals (FR = appel d'offres).
+* [RTO](https://en.wikipedia.org/wiki/Disaster_recovery#Recovery_Time_Objective)([fr](https://fr.wikipedia.org/wiki/Dur%C3%A9e_maximale_d%27interruption_admissible)): **R**ecovery **T**ime **O**bjective. Targeted duration of time and a service level within which a business process must be restored after a disaster (or disruption) in order to avoid unacceptable consequences associated with a break in business continuity.
+* [SLA](https://www.atlassian.com/fr/incident-management/kpis/sla-vs-slo-vs-sli): **S**ervice **L**evel **A**greement. Agreement made with clients.
+* [SLI](https://www.atlassian.com/fr/incident-management/kpis/sla-vs-slo-vs-sli): **S**ervice **L**evel **I**ndicator. Real numbers of the performance
+* [SLO](https://www.atlassian.com/fr/incident-management/kpis/sla-vs-slo-vs-sli): **S**ervice **L**evel **O**bjective. Objectives that must be met in order to reach the SLA.
+* [SOC](https://en.wikipedia.org/wiki/Information_security_operations_center): **S**ecurity **O**perations **C**enter. Facility where enterprise information systems (web sites, applications, databases, data centers and servers, networks, desktops and other endpoints) are monitored, assessed, and defended.
+* [SOD](https://en.wikipedia.org/wiki/Separation_of_duties): **S**eparation (or **S**egregation) **O**f **D**uty. It is the concept of having more than one person required to complete a task. It is an administrative control used by organisations to prevent fraud, sabotage, theft, misuse of information, and other security compromises. It's like separation of powers in politics.
+* [UAT](https://en.wikipedia.org/wiki/Acceptance_testing#User_acceptance_testing): **U**ser **A**cceptance **T**esting. Kind of beta testing, differs from technical and functional validation.
+* [VPC](https://en.wikipedia.org/wiki/Virtual_private_cloud): **V**irtual **P**rivate **C**loud. Pool of shared resources allocated within a public cloud environment, providing a certain level of isolation between the different organizations (denoted as users hereafter) using the resources. Kind of private cloud in a public one.
