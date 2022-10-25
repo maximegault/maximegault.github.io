@@ -32,7 +32,7 @@ cURL ... --cert LocalMachine\My\969d0cacd0f76ec68e10feda75a28b58a1d54968
 
 #### Use separate client certificate, certification authority certificate and private key files
 
-See [OpenSSL](../OpenSSL/) for details on the different files
+See [OpenSSL](../tools-OpenSSL/) for details on the different files
 
 ```console
 cURL ... --cert myClientCertificate.crt --key myPrivateKey.key --cacert myCaCert.crt 
