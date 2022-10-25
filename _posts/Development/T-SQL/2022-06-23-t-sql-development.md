@@ -22,3 +22,20 @@ DECLARE @tempId AS NUMERIC(18,0)
 -- Parentheses are mandatory
 SET @tempId = (SELECT [Id] FROM [Dummy] WHERE [Label] = 'ExactLabel')
 ```
+
+### Get single values from a select that return a unique line
+
+With previous table example:
+
+```sql
+DECLARE @tempId AS NUMERIC(18,0)
+DECLARE @tempLabel AS NVARCHAR(32)
+-- Parentheses are mandatory
+SELECT 
+    @tempId = [Id], 
+    @tempLabel = [Label] 
+FROM
+    [Dummy] 
+WHERE
+    [Label] = 'ExactLabel'
+```
