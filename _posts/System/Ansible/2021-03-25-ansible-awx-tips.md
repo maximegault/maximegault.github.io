@@ -1,7 +1,7 @@
 ---
 title: AWX tips
 date: 2021-03-25 14:00:00 HH:MM:SS +0200
-categories: [System, Linux, Ansible, AWX, tower]
+categories: [System, Linux, Ansible, AWX, Tower]
 tags: [system, linux, ansible, awx, tower, tips]
 ---
 

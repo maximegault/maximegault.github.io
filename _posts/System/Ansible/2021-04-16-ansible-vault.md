@@ -1,7 +1,7 @@
 ---
 title: Ansible vault
 date: 2021-04-16 08:00:00 HH:MM:SS +0100
-categories: [System, Linux, Ansible, vault, awx, tower]
+categories: [System, Linux, Ansible, Vault, AWX, Tower]
 tags: [system, linux, ansible, vault, awx, tower]
 ---
 
