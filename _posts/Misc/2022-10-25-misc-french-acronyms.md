@@ -5,7 +5,7 @@ categories: [Acronyms, French, Misc]
 tags: [acronyms, french, misc]
 ---
 
-### Acronyms
+### French acronyms
 
 * [AGE](https://fr.wikipedia.org/wiki/Assembl%C3%A9e_g%C3%A9n%C3%A9rale_extraordinaire): **A**ssemblée **G**énérale **E**xtraordinaire (ou **A**ssemblée **G**énérale **S**péciale). Réunion des actionnaires d'une société en vue de prendre des décisions la concernant. Elle n'a ni fréquence spécifique, ni délai de tenue.
 * [AGO](https://fr.wikipedia.org/wiki/Assembl%C3%A9e_g%C3%A9n%C3%A9rale_ordinaire): **A**ssemblée **G**énérale **O**ordinaire (ou **A**ssemblée **G**énérale **A**nnuelle). Réunion en assemblée des associés ou actionnaires d'une société. Elle se tient au minimum une fois par an, dans les six mois suivant la clôture de l'exercice comptable. Les actionnaires prennent ainsi part à son fonctionnement et à son contrôle.

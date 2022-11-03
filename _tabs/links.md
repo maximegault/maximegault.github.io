@@ -24,3 +24,5 @@ order: 4
 * Misc:
   * [EPEL](https://fedoraproject.org/wiki/EPEL)
   * [SSH](https://www.ssh.com/ssh/)
+* Videos:
+  * [OAuth OpenID](https://www.youtube.com/watch?v=t18YB3xDfXI&ab_channel=OktaDev)
