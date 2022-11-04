@@ -7,7 +7,7 @@ tags: [development, regex]
 
 ### Match a line that does not contain a word
 
-Example with `it` word:
+Example with "`it`" word:
 
 ```text
 ^((?!it).)*$
@@ -15,5 +15,5 @@ Example with `it` word:
 
 Sources:
 
-* [StackOverflow](https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word)
+* [stackoverflow](https://stackoverflow.com/questions/406230/regular-expression-to-match-a-line-that-doesnt-contain-a-word)
 * [regex101](https://regex101.com/r/d95dAZ/1)
