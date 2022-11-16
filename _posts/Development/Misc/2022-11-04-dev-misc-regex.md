@@ -1,5 +1,5 @@
 ---
-title: AWS CLI
+title: Regex
 date: 2022-11-04 10:00:00 HH:MM:SS +0100
 categories: [Development, Regex]
 tags: [development, regex]
