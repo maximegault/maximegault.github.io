@@ -7,7 +7,7 @@ tags: [system, dsc, tips]
 
 ## Desired State Configuration a.k.a. DSC
 
-## Useful links
+### Useful links
 
 * [DSC home page](https://learn.microsoft.com/en-us/powershell/dsc/overview?view=dsc-1.1)
 * [GitHub custom modules home page](https://github.com/dsccommunity)
