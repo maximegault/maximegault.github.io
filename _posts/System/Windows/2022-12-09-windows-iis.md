@@ -11,5 +11,5 @@ tags: [system, windows, iis]
 
 Go to the `Configuration editor`, create a change and click on `Generate script`:
 
-![Script generation from IIS](assets/img/posts/windows-iis-generate-script.png)
+![Script generation from IIS](/assets/img/posts/windows-iis-generate-script.png)
 _Script generation tool_
