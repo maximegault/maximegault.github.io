@@ -307,3 +307,65 @@ sudo -Rf /myDirectory/subDirectory
 Delete the partition with `d` and validate with `w`.
 
 Every step can be checked with the previous given commands.
+
+### Space usage with `df` and `du`
+
+File system disk space usage with [`df`](https://linux.die.net/man/1/df). `-k` for block size, `-h` for human readable:
+
+```bash
+df -k
+```
+
+```
+Filesystem                         1K-blocks     Used Available Use% Mounted on
+devtmpfs                            24588420        0  24588420   0% /dev
+tmpfs                               24607388        8  24607380   1% /dev/shm
+tmpfs                               24607388  2516124  22091264  11% /run
+tmpfs                               24607388        0  24607388   0% /sys/fs/cgroup
+/dev/mapper/vg00-lvroot              2086912    85664   2001248   5% /
+/dev/mapper/vg00-lvusr               4184064  2301672   1882392  56% /usr
+tmpfs                               24607388        8  24607380   1% /tmp
+```
+
+```bash
+df -h
+```
+
+```
+Filesystem                          Size  Used Avail Use% Mounted on
+devtmpfs                             24G     0   24G   0% /dev
+tmpfs                                24G  8.0K   24G   1% /dev/shm
+tmpfs                                24G  2.4G   22G  11% /run
+tmpfs                                24G     0   24G   0% /sys/fs/cgroup
+/dev/mapper/vg00-lvroot             2.0G   84M  2.0G   5% /
+/dev/mapper/vg00-lvusr              4.0G  2.2G  1.8G  56% /usr
+tmpfs                                24G  8.0K   24G   1% /tmp
+```
+
+File space usage with [`du`](https://linux.die.net/man/1/du). `-k` for block size, `-h` for human readable, `-a` for counts for all files, not just directories:
+
+```bash
+df -h
+```
+
+```
+148K    ./.ssh
+0       ./.ansible/tmp
+0       ./.ansible
+```
+
+```bash
+df -ha
+```
+
+```4.0K    ./.bash_logout
+4.0K    ./.bash_profile
+4.0K    ./.bashrc
+4.0K    ./.ssh/authorized_keys
+4.0K    ./.ssh/authorized_keys2
+4.0K    ./.ssh/authorized_keys3
+148K    ./.ssh
+8.0K    ./.bash_history
+0       ./.ansible/tmp
+0       ./.ansible
+```
